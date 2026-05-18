@@ -9,7 +9,7 @@ collection = db["threats"]
 data = {
 "ip": "1.1.1.1",
 "threat": "Suspicious Traffic",
-"severity": "Medium"
+"severity": "high"
 }
 
 result = collection.insert_one(data)
