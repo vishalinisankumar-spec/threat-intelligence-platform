@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2026-05-18 06:06:44",
+        "ip": "1.1.1.1",
+        "threat_type": "Suspicious Traffic",
+        "severity": "Medium",
+        "action": "BLOCKED",
+        "compliance": "PCI-DSS"
+    },
+    {
+        "timestamp": "2026-05-18 06:06:44",
+        "ip": "1.1.1.1",
+        "threat_type": "Suspicious Traffic",
+        "severity": "high",
+        "action": "BLOCKED",
+        "compliance": "PCI-DSS"
+    }
+]
