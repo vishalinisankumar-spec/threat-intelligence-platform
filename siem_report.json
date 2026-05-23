@@ -1,0 +1,44 @@
+{
+    "report_generated": "2026-05-18 06:12:13",
+    "summary": {
+        "total_events": 4,
+        "high_severity": 0,
+        "medium_severity": 2
+    },
+    "events": [
+        {
+            "timestamp": "2026-05-18 06:12:13",
+            "source": "MongoDB",
+            "ip": "1.1.1.1",
+            "threat_type": "Suspicious Traffic",
+            "severity": "Medium",
+            "action": "DETECTED"
+        },
+        {
+            "timestamp": "2026-05-18 06:12:13",
+            "source": "MongoDB",
+            "ip": "1.1.1.1",
+            "threat_type": "Suspicious Traffic",
+            "severity": "high",
+            "action": "DETECTED"
+        },
+        {
+            "timestamp": "2026-05-18 06:06:44",
+            "ip": "1.1.1.1",
+            "threat_type": "Suspicious Traffic",
+            "severity": "Medium",
+            "action": "BLOCKED",
+            "compliance": "PCI-DSS",
+            "source": "Compliance Logger"
+        },
+        {
+            "timestamp": "2026-05-18 06:06:44",
+            "ip": "1.1.1.1",
+            "threat_type": "Suspicious Traffic",
+            "severity": "high",
+            "action": "BLOCKED",
+            "compliance": "PCI-DSS",
+            "source": "Compliance Logger"
+        }
+    ]
+}
