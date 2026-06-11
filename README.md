@@ -147,7 +147,33 @@ by maintaining immutable logs of all network access and security
 events with exact timestamps and actions taken.
 
 ---
+Week 3: Dynamic Policy Enforcement Engine
 
+The third phase transitioned from detection to automated defense. A Dynamic Policy Enforcement Engine was developed to continuously monitor high-risk threats and automatically enforce security policies.
+
+Activities Completed
+Developed policy_enforcer.py for automated threat blocking.
+Integrated MongoDB threat database with firewall automation.
+Implemented automatic IP blocking using Linux iptables.
+Created policy_daemon.py to monitor threats continuously.
+Configured the system to check for new threats every 60 seconds.
+Automated security policy enforcement without human intervention.
+Logged blocked IP addresses for future analysis.
+
+
+Week 4: Alerting, Testing, and Final Reporting
+
+The final phase focused on operational safety, monitoring, visualization, and project documentation.
+
+Activities Completed
+Implemented rollback.py to reverse firewall rules in case of false positives.
+Added functionality for SOC analysts to unblock IP addresses.
+Implemented email alerting for critical threats.
+Finalized dashboard visualization and monitoring components.
+Generated compliance and audit logs for security events.
+Organized project scripts and documentation.
+Performed testing and validation of all project modules.
+Updated GitHub repository with scripts, documentation, and architecture diagrams.
 ## Author
 Vishalini 
 Cybersecurity Intern
