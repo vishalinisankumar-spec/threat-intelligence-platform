@@ -174,6 +174,46 @@ Generated compliance and audit logs for security events.
 Organized project scripts and documentation.
 Performed testing and validation of all project modules.
 Updated GitHub repository with scripts, documentation, and architecture diagrams.
+
+
+## Project Status
+
+This project is complete. Over four weeks I built a fully functional
+Threat Intelligence Platform that connects to 3 real OSINT sources,
+collects and scores threats, automatically blocks malicious IPs
+through a continuous monitoring daemon, allows rollback of false
+positives, sends email alerts for critical threats, and displays
+everything on a live SIEM dashboard, all backed by PCI-DSS compliant
+audit logging.
+
+## Four Week Summary
+
+### Week 1
+Set up Kali Linux environment, connected to 3 OSINT sources
+(AlienVault OTX, VirusTotal, Feodo Tracker), collected 139 unique
+real threats, implemented deduplication and stored everything in
+MongoDB.
+
+### Week 2
+Designed a risk scoring schema assigning scores from 1 to 10 based
+on threat type, severity and source reliability. Built an advanced
+Flask SIEM dashboard with search and filter functionality as a
+lightweight alternative to ELK Stack.
+
+### Week 3
+Developed policy_daemon.py, a Python daemon that continuously
+monitors MongoDB every 60 seconds and automatically blocks Critical
+threats using iptables. Built rollback.py for SOC analysts to reverse
+false positives, and email_alert.py to send automatic alerts for
+Critical threats.
+
+### Week 4
+Updated the dashboard to show BLOCKED and ROLLED_BACK status for
+every threat. Added complete architecture documentation describing
+the five layer system design, data flow and database schema.
+Finalized README and pushed all code to GitHub.
+
+
 ## Author
 Vishalini 
 Cybersecurity Intern
