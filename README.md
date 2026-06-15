@@ -214,6 +214,11 @@ the five layer system design, data flow and database schema.
 Finalized README and pushed all code to GitHub.
 
 
+
+## Last Updated
+This project was completed and finalized today as part of the
+4 week cybersecurity internship at Infotact Solutions and Co.
+
 ## Author
 Vishalini 
 Cybersecurity Intern
